@@ -1,0 +1,21 @@
+button{
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+button p{
+    margin-left: 5px;
+}
